@@ -52,6 +52,11 @@ nav a[href="#contact"]:hover {
 	background-color: #004390;
 	transform: scale(1.05);
 }
+
+section{
+    padding: 1rem 0 1rem; /*top right&left bottom*/
+}
+
 .project {
 	background-color: white;
 	border: 1px solid #3399ff;
@@ -86,7 +91,7 @@ nav a[href="#contact"]:hover {
 }
 
 .social_media {
-    padding: 5px 15px;
+    padding: 5px 15px; /*top&bottom right&left*/
 }
 
 footer {
@@ -96,7 +101,7 @@ footer {
 	background-color: #0066cc;
 	color: white;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) { /*mobile friendly*/
 	header {
 		flex-direction: column;
 		align-items: center;
