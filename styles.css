@@ -187,22 +187,23 @@ footer {
     .image-gallery img {
         width: 80%;
         margin: 0 auto;
-        margin-bottom: 2rem; /* Add some space between images */
+        margin-bottom: 2rem;
     }
     
     .close {
-        top: 0;
+        top: 9vh;
         right: 1rem;
-        font-size: 50px;
+        font-size: 4em;
     }
     
     .lightbox-content {
         width: 90%;
+		margin-top: 12vh;
         max-height: 80%;
     }
     
     .lightbox-caption {
-        font-size: 18px;
+        font-size: 1em;
         max-height: max-content;
     }
 }

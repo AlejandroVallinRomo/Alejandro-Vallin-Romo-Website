@@ -1,6 +1,6 @@
-// JavaScripts for my website
+// JavaScripts for my website //
 
-// Expandable project-title:
+// Expandable project-title: //
 
 document.querySelectorAll('.project-title').forEach(title => {
         title.addEventListener('click', () => {
@@ -9,7 +9,7 @@ document.querySelectorAll('.project-title').forEach(title => {
         });
     });
 
-// Image Lightbox:
+// Image Lightbox: //
 
 document.querySelectorAll('.image-gallery img').forEach(function(image) {
     image.addEventListener('click', function() {
