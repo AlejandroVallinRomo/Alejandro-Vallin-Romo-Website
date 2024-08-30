@@ -92,6 +92,7 @@ section{
 
 .social_media {
     padding: 5px 15px; /*top&bottom right&left*/
+	text-decoration: none;
 }
 
 footer {
